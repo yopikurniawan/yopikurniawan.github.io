@@ -1,0 +1,60 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   background-color: #fff;
+}
+
+.meals-showcase {
+   width: 100%;
+}
+
+.meals-showcase li {
+   display: block;
+   float: left;
+   width: 25%;
+}
+
+.clearfix:after {
+   content: ".";
+   clear: both;
+   display: block;
+   height: 0;
+   visibility: hidden;
+}
+
+.section-meals {
+   padding: 120px 100px 100px 100px;
+}
+
+.meals-showcase {
+   width: 100%;
+}
+
+.meals-showcase li {
+   display: block;
+   float: left;
+   width: 25%;
+}
+
+.meals-photo img {
+   width: 100%;
+   margin: 0;
+   transform: scale(1.15);
+   opacity: 0.7;
+   transition: transform 0.5s, opacity 0.5s;
+}
+
+.meals-photo img:hover {
+   opacity: 1;
+   transform: scale(1.03);
+   transition: transform 0.5s;
+}
+
+.meals-photo {
+   overflow: hidden;
+   background-color: #000;
+}
